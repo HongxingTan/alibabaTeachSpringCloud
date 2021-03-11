@@ -16,6 +16,6 @@ public class OrderController {
 
     @RequestMapping("/hello")
     public String getOrder() {
-        return "Hello Spring Cloud 1";
+        return "Hello Spring Cloud 3";
     }
 }
