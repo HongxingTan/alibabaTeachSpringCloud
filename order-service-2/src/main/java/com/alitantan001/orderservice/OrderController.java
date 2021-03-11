@@ -18,7 +18,7 @@ public class OrderController {
     @RequestMapping("/hello")
     public String getOrder() throws InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(10);
         return "Hello Spring Cloud 2";
     }
 }
